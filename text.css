@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 60%;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-form input, 
+.blog-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.blog-form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.blog-form button:hover {
+    background-color: #218838;
+}
+
+.blog {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.blog img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.blog h2 {
+    margin: 10px 0;
+}
+
+.blog-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.blog-buttons button {
+    padding: 7px 14px;
+    border: none;
+    cursor: pointer;
+}
+
+.edit {
+    background-color: #007bff;
+    color: white;
+}
+
+.delete {
+    background-color: #dc3545;
+    color: white;
+}

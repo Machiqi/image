@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Blog Website</h1>
+        <div class="blog-form">
+            <input type="text" id="image-url" placeholder="Image URL">
+            <input type="text" id="title" placeholder="Blog Title">
+            <textarea id="description" placeholder="Blog Description"></textarea>
+            <button onclick="postBlog()">Post Blog</button>
+        </div>
+
+        <h3>Total Blogs: <span id="total-blogs">0</span></h3>
+        <div id="blog-container"></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
+
